@@ -8,7 +8,8 @@ sayHello()
 
 // Uncomment this line to see the error that is printed in the console.
 // (You can uncomment a line by removing the // at the beginning of the line.)
-//print(greeting)
+
+// print(greeting)
 
 
 func sayHelloToGarfield() {
@@ -23,15 +24,28 @@ func sayHelloToScratchy() {
     print("Hello, Scratchy, why do you sleep so much?")
 }
 
-
 func sayHelloToCat(catName: String) {
     print("Hello, \(catName), why do you sleep so much?")
 }
 
+sayHelloToCat("Ming")
 sayHelloToCat("Mittens")
 
-let catFriend = "Socks"
-sayHelloToCat(catFriend)
+var catName = "Socks"
 
-// Uncomment this line to see the error that is printed in the console.
-//sayHelloToCat()
+sayHelloToCat(catName)
+
+func dotaHeroWithTheirUltimate(heroName: String, ultimate: String) {
+    print("The \(heroName) have an ulti called \(ultimate).")
+}
+
+dotaHeroWithTheirUltimate("Jugg", ultimate: "Omnislash")
+
+
+
+
+
+
+
+
+
